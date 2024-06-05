@@ -5,7 +5,7 @@ app = Flask(__name__)   # Flask constructor
 # which URL is associated function 
 @app.route('/')       
 def hello(): 
-    return 'HELLO'
+    return 'HELLO!!!'
 
 @app.route('/page1')       
 def page1function(): 
