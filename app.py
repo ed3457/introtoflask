@@ -9,7 +9,7 @@ def hello():
 
 @app.route('/page1')       
 def page1function(): 
-    return 'Page 1 Data'
+    return 'Page 1 Data$$$'
   
 if __name__=='__main__': 
    app.run() 
